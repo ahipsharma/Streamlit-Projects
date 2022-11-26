@@ -46,11 +46,6 @@ def DNA_Neucleotide_count(seq):
 
 X = DNA_Neucleotide_count(sequence)
 X
-
-
-
-
-
 st.subheader('2. Print text')
 st.write('There are ' +str(X['A']) + ' adenanine(A) in the sequence')
 st.write('There are ' +str(X['T']) + ' adenanine(T) in the sequence')
